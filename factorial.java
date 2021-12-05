@@ -1,16 +1,13 @@
 import java.util.*;
-class evenNumbers{
+class factorial{
 	public static void main(String[] args) {
-		int i,upperLimit,count=0;
-		System.out.println("You want to display even numbers upto ?");
+		int i,number,result=1;
+		System.out.println("Enter any number to calculate its factorial ?");
 		Scanner sc = new Scanner(System.in);
-		upperLimit = sc.nextInt();
-		for (i=0;i<=upperLimit;i++) {
-			if(i%2 == 0){
-				System.out.println(i);
-				++count;
-			}
+		number = sc.nextInt();
+		for (i=number;i>=1;i--) {
+			result*=i;
 		}
-		System.out.println("There are "+count+" even numbers from 0 to "+upperLimit);
+		System.out.println(number+"! = "+result);
 	}
 }

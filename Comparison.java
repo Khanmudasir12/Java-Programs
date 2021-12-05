@@ -1,4 +1,4 @@
-//Program to compare two numbers... author @sadam
+//Program to compare two numbers...
 import java.util.*;
 class comparison{
 	public static void main(String[] args) {

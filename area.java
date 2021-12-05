@@ -1,5 +1,4 @@
 //java program to calculate area of circle
-//author @sadam cse-18-14
 import java.util.*;
 class area{
 	static float calArea(float r){
